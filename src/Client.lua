@@ -29,7 +29,7 @@ function SCI:AddControllers(path: Instance)
 	assert(typeof(path) == "Instance", "path is not an Instance")
 
 	for index, module_script in next, path:GetChildren() do
-		self:AddService(module_script)
+		self:AddController(module_script)
 	end
 end
 
@@ -41,8 +41,8 @@ function SCI:Start()
 	end
 end
 
-function SCI:GetController(service_name)
-	return self._Controllers[service_name]
+function SCI:GetController(controller_name)
+	return self._Controllers[controller_name]
 end
 
 --=====================--
