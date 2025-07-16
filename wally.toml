@@ -1,5 +1,6 @@
 [package]
-name = "kurookku/sci"
-version = "0.1.2"
+name = "kurookku/scp"
+description = "Service/Controller Provider"
+version = "0.1.0"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
